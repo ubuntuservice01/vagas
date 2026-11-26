@@ -1,0 +1,22 @@
+{
+  "name": "twende",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:passenger": "vite --open /apps/passenger/",
+    "dev:driver": "vite --open /apps/driver/",
+    "dev:admin": "vite --open /apps/admin/",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "vite": "6.4.1",
+    "typescript": "5.9.3",
+    "@types/react": "19.1.16",
+    "@types/react-dom": "19.1.9"
+  }
+}
